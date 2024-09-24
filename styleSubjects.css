@@ -1,0 +1,39 @@
+header{
+    margin: 0px;
+    text-align: center;
+    background-color: aquamarine;
+    color: black;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+main{
+    padding-left: 1em;
+}
+footer{
+    margin-left: 0em;
+}
+a:hover{
+    font-size: 1.1em;
+    color: purple;
+}
+a:active{
+    font-size: 1.2em;
+    color: hsl(149, 44%, 79%);
+}
+a:link{
+    color: hsl(180, 100%, 50%);
+}
+a:visited{
+    color: hsl(180, 100%, 50%);
+}
+h1{
+    text-shadow: 3px 3px 20px ;
+}
+a{
+    text-decoration: none;
+}
+li::marker{
+    content: "💎";
+}
